@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="mk"
+          fetch="https://github.com/mkaluza/" />
+
+  <remove-project name="android_packages_apps_Torch" />
+  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="mk" />
+
+  <remove-project name="device_samsung_janice" />
+  <project path="device/samsung/janice" name="device_samsung_janice" remote="mk" revision="kk44" groups="ste" />
+
+  <!--
+  <remove-project name="android_kernel_samsung_u8500" />
+-->
+  <project path="kernel/samsung/u8500" name="mkaluza/Samsung_STE_Kernel" remote="github" revision="kk44" />
+</manifest>
