@@ -7,6 +7,10 @@
   <project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" remote="github" revision="cm-11.0" />
   <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="github" revision="cm-11.0" />
 -->
+<!--
+     FIXME download only one toolchain for the kernel because the linaro_toolchains_2014 is huge
+  <project path="prebuilts/gcc/linux-x86/arm/linaro/linaro-4.8-cortex-a9" name="Prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" remote="vanir" revision="L5" />
+-->
 
   <remove-project name="Team-Exhibit/android_device_samsung_u8500-common" />
   <project path="device/samsung/u8500-common" name="android_device_samsung_u8500-common" remote="mk" revision="kk44" groups="ste" />
