@@ -198,5 +198,9 @@
   <remove-project name="device_samsung_tuna" />
 
   <remove-project name="android_prebuilt" />
+  <remove-project name="linaro_toolchains_2014" />
+  <!--
   <remove-project name="vendor_samsung" />
+  <remove-project name="hardware_samsung" />
+-->
 </manifest>
