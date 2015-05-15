@@ -3,11 +3,18 @@
   <remote name="mk"
           fetch="https://github.com/mkaluza/" />
 
+  <project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="github" revision="cm-11.0" />
+
   <remove-project name="android_packages_apps_Torch" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="mk" />
 
   <remove-project name="device_samsung_janice" />
   <project path="device/samsung/janice" name="device_samsung_janice" remote="mk" revision="kk44" groups="ste" />
+
+  <remove-project name="Team-Exhibit/android_device_samsung_u8500-common" />
+  <project path="device/samsung/u8500-common" name="android_device_samsung_u8500-common" remote="mk" revision="kk44" groups="ste" />
+
 
   <!--
   <remove-project name="android_kernel_samsung_u8500" />
