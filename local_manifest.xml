@@ -14,10 +14,4 @@
 
   <remove-project name="Team-Exhibit/android_device_samsung_u8500-common" />
   <project path="device/samsung/u8500-common" name="android_device_samsung_u8500-common" remote="mk" revision="kk44" groups="ste" />
-
-
-  <!--
-  <remove-project name="android_kernel_samsung_u8500" />
--->
-  <project path="kernel/samsung/u8500" name="mkaluza/Samsung_STE_Kernel" remote="github" revision="kk44" />
 </manifest>

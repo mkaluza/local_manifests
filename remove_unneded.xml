@@ -196,4 +196,7 @@
   <remove-project name="device_samsung_toro" />
   <remove-project name="device_samsung_toroplus" />
   <remove-project name="device_samsung_tuna" />
+
+  <remove-project name="android_prebuilt" />
+  <remove-project name="vendor_samsung" />
 </manifest>
