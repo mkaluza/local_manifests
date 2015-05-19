@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="mk"
-          fetch="https://github.com/mkaluza/" />
+	fetch="ssh://git@github.com/mkaluza" revision="kk44"/>
 
   <!-- conflict(libhealthd) with device_samsung_u8500-common - hardware and vendor are incorporated into samsung_hardware and samsung_vendor
   <project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" remote="github" revision="cm-11.0" />
