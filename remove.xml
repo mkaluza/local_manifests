@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="device/generic/mips" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-mips" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/google/accessory/arduino" />
+  <remove-project name="device/google/accessory/demokit" />
+  <remove-project name="platform/prebuilts/clang/linux-x86/mips/3.3" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" />
+</manifest>

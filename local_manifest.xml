@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote fetch="ssh://git@github.com/mkaluza/" name="mk" />
+
+	<remove-project name="J-Team/platform_kernel_samsung_u8500" />
+	<project path="kernel/samsung/u8500" name="Samsung_STE_kernel" remote="mk" revision="kk44" />
+</manifest>
