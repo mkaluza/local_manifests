@@ -225,6 +225,4 @@
   <remove-project name="android_external_eclipse-basebuilder" />
   <remove-project name="android_external_eclipse-windowbuilder" />
   <remove-project name="platform/prebuilts/eclipse" />
-
-  <remove-project name="platform/prebuilts/qemu-kernel" />
 </manifest>
