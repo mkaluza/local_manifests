@@ -26,4 +26,6 @@
 
   <remove-project name="packages_apps_Settings" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="mk" />
+
+  <project path="external/lz4" name="android_external_lz4" revision="cm-12.1" />
 </manifest>
