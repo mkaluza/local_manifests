@@ -215,13 +215,11 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" />
   -->
   <!--
   default one - kernel uses the one from linaro_toolchains_2014
   <remove-project name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" />
 -->
-  <remove-project name="prebuilts_gcc-linux-x86_arm_arm-linux-androideabi-4.9-linaro" />
 
   <remove-project name="android_external_eclipse-basebuilder" />
   <remove-project name="android_external_eclipse-windowbuilder" />
