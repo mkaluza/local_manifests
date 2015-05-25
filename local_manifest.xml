@@ -28,4 +28,8 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="mk" />
 
   <project path="external/lz4" name="android_external_lz4" revision="cm-12.1" />
+
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc-linux-x86_arm_arm-linux-androideabi-4.9-linaro" remote="vanir" revision="L5" />
+  <remove-project name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" remote="vanir" revision="L5" />
 </manifest>
