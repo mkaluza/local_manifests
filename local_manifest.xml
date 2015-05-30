@@ -27,6 +27,7 @@
   <remove-project name="packages_apps_Settings" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="mk" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" />
+  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" />
 
   <project path="external/lz4" name="android_external_lz4" revision="cm-12.1" />
 
