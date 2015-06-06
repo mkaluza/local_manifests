@@ -47,6 +47,8 @@
 
   <remove-project name="art" />
   <project path="art" name="android_art" remote="ad" />
+  <remove-project name="external_webp" />
+  <project path="external/webp" name="platform/external/webp" remote="aosp" revision="master" />
   <remove-project name="external_fuse" />
   <project path="external/fuse" name="android_external_fuse" remote="ad" />
   <remove-project name="frameworks_av" />
