@@ -3,6 +3,8 @@
   <remote name="mk"
 	fetch="ssh://git@github.com/mkaluza" revision="kk44"/>
 
+  <remote name="ad" fetch="https://github.com/ArchiDroid/" revision="cm-11.0"/>
+
   <!-- conflict(libhealthd) with device_samsung_u8500-common - hardware and vendor are incorporated into samsung_hardware and samsung_vendor
   <project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" remote="github" revision="cm-11.0" />
   <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="github" revision="cm-11.0" />
@@ -41,4 +43,11 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="master" />
   <remove-project name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="master" />
+
+  <remove-project name="art" />
+  <project path="art" name="android_art" remote="ad" />
+  <remove-project name="external_fuse" />
+  <project path="external/fuse" name="android_external_fuse" remote="ad" />
+  <remove-project name="frameworks_av" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="ad" />
 </manifest>
