@@ -44,6 +44,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="master" />
   <remove-project name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="master" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="cm" />
 
   <remove-project name="art" />
   <project path="art" name="android_art" remote="ad" />
