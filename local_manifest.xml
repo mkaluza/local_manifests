@@ -70,7 +70,7 @@
   <remove-project name="external_webp" />
   <project path="external/webp" name="external_webp" remote="mk" revision="master" />
   <remove-project name="bionic" />
-  <project path="bionic" name="android_bionic" remote="mk" />
+  <project path="bionic" name="bionic" remote="mk" />
   <!--
   <remove-project name="external_libpng" />
   <project path="external/libpng" name="android_external_libpng" remote="ss" />
