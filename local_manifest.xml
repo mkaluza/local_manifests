@@ -19,6 +19,15 @@
   <project path="prebuilts/gcc/linux-x86/arm/linaro/linaro-4.8-cortex-a9" name="Prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" remote="vanir" revision="L5" />
 -->
 
+  <remove-project name="build" />
+  <project path="build" name="vanir_build" remote="mk" revision="kk44" groups="pdk" />
+
+  <remove-project name="bionic" />
+  <project path="bionic" name="bionic" remote="mk" />
+
+  <remove-project name="libcore" />
+  <project path="libcore" name="libcore" remote="mk" revision="kk44" groups="pdk" />
+
   <remove-project name="Team-Exhibit/android_device_samsung_u8500-common" />
   <project path="device/samsung/u8500-common" name="android_device_samsung_u8500-common" remote="mk" revision="kk44" groups="ste" />
 
@@ -31,6 +40,18 @@
   <remove-project name="frameworks_av" />
   <project path="frameworks/av" name="frameworks_av" remote="mk" revision="kk44" />
 
+  <remove-project name="vendor_vanir" />
+  <project path="vendor/vanir" name="vendor_vanir" remote="mk" revision="kk44" groups="pdk" />
+
+  <remove-project name="external_chromium_org" />
+  <project path="external/chromium_org" name="external_chromium_org" remote="mk" />
+
+  <remove-project name="external_webp" />
+  <project path="external/webp" name="external_webp" remote="mk" revision="master" />
+
+  <remove-project name="packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="mk" />
+
   <remove-project name="android_packages_apps_Torch" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="mk" revision="cm-11.0" />
 
@@ -39,22 +60,6 @@
   -->
   <project path="external/UKM" name="UKM" remote="mk" revision="janice" />
 
-  <remove-project name="platform/prebuilts/clang/linux-x86/host/3.4" />
-
-  <remove-project name="build" />
-  <project path="build" name="vanir_build" remote="mk" revision="kk44" groups="pdk" />
-
-  <remove-project name="libcore" />
-  <project path="libcore" name="libcore" remote="mk" revision="kk44" groups="pdk" />
-
-  <remove-project name="vendor_vanir" />
-  <project path="vendor/vanir" name="vendor_vanir" remote="mk" revision="kk44" groups="pdk" />
-
-  <remove-project name="external_chromium_org" />
-  <project path="external/chromium_org" name="external_chromium_org" remote="mk" />
-
-  <remove-project name="packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="mk" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" />
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" />
   <project path="packages/apps/DroidWall" name="droidwall" remote="mk" revision="master" />
@@ -69,6 +74,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="aosp" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="linux" remote="aosp" revision="master" />
 
+  <remove-project name="platform/prebuilts/clang/linux-x86/host/3.4" />
   <remove-project name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" />
   <remove-project name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" />
   <!--
@@ -81,10 +87,6 @@
   <!--
   <project path="device/samsung/codinalte" name="android_device_samsung_codinalte" remote="meti" revision="carbon-l" />
 -->
-  <remove-project name="external_webp" />
-  <project path="external/webp" name="external_webp" remote="mk" revision="master" />
-  <remove-project name="bionic" />
-  <project path="bionic" name="bionic" remote="mk" />
   <!--
   <remove-project name="external_libpng" />
   <project path="external/libpng" name="android_external_libpng" remote="ss" />
